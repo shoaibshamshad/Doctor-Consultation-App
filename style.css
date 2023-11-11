@@ -1,0 +1,783 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+}
+
+.main-sub-container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 120px;
+    /* background-color: blue; */
+}
+
+.navlogo-image img {
+    width: 254px;
+    height: 50px;
+}
+
+.nav-center-container {
+    width: 40%;
+    display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-center-container li {
+    list-style: none;
+}
+
+.home a {
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #007E85;
+
+}
+
+.service a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #007E85;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+}
+
+.login button {
+    width: 167px;
+    min-height: 51px;
+    background-color: #007E85;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 8px;
+    border: none;
+}
+
+.nav-right-container {
+    width: 18%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Appointment-main-container {
+    margin-top: 60px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.doctor-appointment-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 60%;
+    /* background-color: aquamarine; */
+    /* display: flex; */
+}
+
+.doctor-appointment-heading {
+    width: 50%;
+}
+
+.doctor-appointment-heading h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.health {
+    color: #007E85;
+}
+
+.bright {
+    color: #6EAB36;
+}
+
+.doctor-appointment-text {
+    width: 50%;
+    margin: 20px;
+    margin-top: 50px;
+    /* margin-bottom: 60px; */
+    /* background-color: antiquewhite; */
+}
+
+.doctor-appointment-text p {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: start;
+    color: #474343;
+}
+
+.appointment-button-container {
+    display: flex;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.appointment-button {
+    /* margin-top: 60px */
+}
+
+.appointment-button button {
+    width: 252px;
+    height: 51px;
+    background-color: #007E85;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.watch-video-text p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.watch-video-container {
+    display: flex;
+    width: 38%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doctor-image-container-main {
+
+    position: relative;
+    height: 527px;
+    width: 626px;
+    /* background-color: aqua; */
+}
+.doc-back-image{
+    width: 520px;
+    height: 548px;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+
+}
+
+.doctor-image-container img {
+   
+    height: 626px;
+    width: 527px;
+    /* object-fit: ; */
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    /* z-index: 10;
+    bottom: 5;
+    right: 5; */
+    /* background-color: antiquewhite; */
+    /* position: absolute; */
+    /* z-index: -3; */
+
+}
+
+.find-container {
+    width: 100%;
+    height: 192px;
+    background-color: #FAFAFA;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-bottom: 40px; */
+}
+
+.find-sub-container {
+    width: 90%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+.find-input-container {
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find-heading h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+
+}
+
+.name-input input {
+    width: 296px;
+    height: 66px;
+    border-radius: 8px;
+    border: 1px solid #007E85;
+    font-size: 20px;
+    color: #555555;
+    padding-left: 10px;
+}
+
+.available p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.search-button button {
+    width: 200px;
+    height: 66px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007E85;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+/* .input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+} */
+
+.available-container {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-container {
+    /* margin-top: 60px; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.result-heading h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #007E85;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.numbers-container {
+    margin-top: 2.5rem;
+}
+
+.number-div {
+    font-size: 44px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+.number-div span {
+    font-size: 44px;
+    font-weight: 700;
+    color: #6ab2b6;
+
+}
+
+.customer-text p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.customer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-main-conainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.opertion-container {
+    width: 100%;
+    height: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.operation-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* background-color: aquamarine; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+
+.operation-heading h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    width: 80%;
+
+}
+
+.opertion-text p {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 80%;
+    margin-top: 2.5rem;
+    line-height: 1.5;
+}
+
+.get-button button {
+    width: 173px;
+    height: 66px;
+    border-radius: 40px;
+    border: none;
+    background-color: #007E85;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+}
+
+.talk-button button {
+    width: 173px;
+    height: 66px;
+    border-radius: 40px;
+    border: none;
+    /* background-color: #007E85; */
+    font-size: 18px;
+    font-weight: 400;
+    color: #007E85;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.opertion-button-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.operation-image img {
+    width: 624px;
+    height: 496px;
+}
+
+.operation-image {
+    width: 40%;
+}
+.service-card-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.services-heading h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.srvices-text p {
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 80%; */
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.services-card-container{
+    width: 32%;
+    height: 520px;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+.dental-card{
+    /* margin: 0px auto; */
+    /* align-items: center; */
+    /* padding-bottom: 1rem; */
+    /* width: 100%; */
+}
+.dental-image{
+    width: 343px;
+    height: 220px;
+
+}
+.dental-heading h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+}
+.learn-container{
+    display: flex;
+    margin-top: 2rem;
+}
+.dental-text p{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 340px;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+.learntext p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #007E85;
+}
+.team-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.team-text p{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 340px; */
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+
+}
+.team-card-main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.team-card-container{
+    width: 32%;
+    height: 535px;
+    border-radius: 24px;
+    border: 1px solid #D4D2E3;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.team-card-div{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.john-heading h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    margin-top: 2.5rem;
+    /* text-align: center; */
+
+}
+.john-designation{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+
+}
+.john-text p{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 340px; */
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+    width: 300px;
+    /* text-align: start; */
+}
+.team-icon-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    width: 60%;
+}
+.Testimonial-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+.Testimonial-text p{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 340px; */
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+.testimonial-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+.Testimonial-card-container{
+    width: 32%;
+    height: 412px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #D4D2E3;
+    display: flex;
+    align-items: center;
+}
+.Testimonial-container-sub{
+    width: 90%;
+    margin: 0px auto;
+}
+.card-heading h1{
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+
+}
+.card-text p{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 340px; */
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+    width: 300px;
+    text-align: start;
+}
+.name{
+    font-size: 18px;
+    color: #007E85;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 1.5rem;
+}
+.designation{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* width: 340px; */
+    /* text-align: center; */
+    margin-top: 5px;
+
+}
+.trusted-container{
+    width: 100%;
+    height: 390px;
+    display: flex;
+
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.trusted-sub{
+    width: 100%;
+}
+.trusted-heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+    font-family: sans-serif;
+    margin-top: 2.5rem;
+    text-align: center;
+
+}
+.trusted-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.dot-image{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.email-heading{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333333;
+}
+.input input{
+    width: 419px;
+    height: 54px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 1.5rem;
+
+}
+.subscribe button{
+    width: 116px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #007E85;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.input-container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    height: 5rem;
+    /* background-color: antiquewhite; */
+}
+.footer-container{
+    background-color: #007E85;
+    width: 100%;
+    height: 454px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+.copyright p{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
+.product{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 1.75rem;
+}
+.features{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    font-family: sans-serif;
+    line-height: 2.5;
+    /* margin-top: 2rem; */
+
+}
+.facebook-logo-div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 8px;
+}
+.footer-sub-container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-side{
+    margin-right: 3rem;
+}
